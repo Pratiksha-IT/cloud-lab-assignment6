@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Lab - Assignment 6</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 { color: #4a4a8a; font-size: 2rem; margin-bottom: 10px; }
+        .badge {
+            background: #667eea;
+            color: white;
+            padding: 6px 18px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 10px 0 20px;
+            font-size: 0.9rem;
+        }
+        p { color: #666; line-height: 1.7; margin-bottom: 16px; }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 20px;
+        }
+        .info-box {
+            background: #f0f0ff;
+            border-radius: 10px;
+            padding: 16px;
+        }
+        .info-box h3 { color: #4a4a8a; font-size: 0.9rem; }
+        .info-box p { color: #555; font-size: 0.85rem; margin: 0; }
+        .footer {
+            margin-top: 24px;
+            color: #aaa;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Cloud Computing Lab</h1>
+        <div class="badge">Assignment 6 — PaaS Deployment</div>
+        <p>This web application is deployed on <strong>AWS Amplify</strong>, a Platform as a Service (PaaS) environment provided by Amazon Web Services.</p>
+        <p>The application is automatically built and hosted without managing any servers, operating systems, or infrastructure.</p>
+        <div class="info-grid">
+            <div class="info-box">
+                <h3>Platform</h3>
+                <p>AWS Amplify (PaaS)</p>
+            </div>
+            <div class="info-box">
+                <h3>Deployment</h3>
+                <p>Continuous Deployment via GitHub</p>
+            </div>
+            <div class="info-box">
+                <h3>Subject</h3>
+                <p>Cloud Computing Lab — TE IT</p>
+            </div>
+            <div class="info-box">
+                <h3>Subject Code</h3>
+                <p>314458</p>
+            </div>
+        </div>
+        <div class="footer">
+            Deployed on AWS Amplify — JSCOE Department of Information Technology
+        </div>
+    </div>
+</body>
+</html>
